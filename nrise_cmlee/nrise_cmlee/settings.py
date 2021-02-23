@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'nrise_app',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -130,4 +131,8 @@ REST_FRAMEWORK = {
         "rest_framework.parsers.MultiPartParser",
         "rest_framework.parsers.JSONParser",
     ]
+}
+
+SWAGGER_SETTINGS = {
+    'JSON_EDITOR': False,
 }
