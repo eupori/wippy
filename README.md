@@ -42,7 +42,7 @@ API 문서는 SWAGGER로 확인할 수 있습니다.
 1. project 압축 해제  `nrise_cmlee`
 2. 터미널(혹은 cmd)에서 설정하고자 하는 가상환경 활성화
 3. python 3.8 이상 버전 설치
-4. `pip install requirement.txt` 명령어 실행
+4. `pip install -r requirement.txt` 명령어 실행
 5. `nrise_cmlee` 디렉토리 안으로 접근
 6. `python manage.py migrate` 명령어 실행
 7. `python manage.py runserver` 명령어 실행 (포트 충돌 시 변경 필요)
